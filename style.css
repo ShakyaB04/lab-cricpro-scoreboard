@@ -1,4 +1,89 @@
 /* Type your code here */
+#imgdiv{
+	display: flex;
+	flex-direction: row-reverse;
+	margin-top: 25px;
+	margin-right: 150px;
+}
+
+#logo{
+	width: 150px;
+}
+
+body{
+	margin-left: 90px;
+	background: url("assets/background-image1.png");
+	background-repeat: no-repeat;
+	background-position: bottom 10px right 20px;
+}
+
+h1{
+	font-size: 45px;
+	font-family: sans-serif;
+	text-shadow: 2px 2px 3px rgb(117, 112, 112);
+}
+
+h3{
+	margin-top: -20px;
+	font-size: 25px;
+	font-family: sans-serif;
+	color: rgb(113, 110, 110);
+}
+
+table{
+	border-collapse: collapse;
+	width: 65%;
+	margin-top: 20px;
+	font-family: sans-serif;
+}
+
+tr{
+	background-color: white;
+}
+
+.heading{
+	background-color: #ff3c00;
+	color: white;
+	font-weight: 600;	
+}
+
+.team-name{
+	padding: 10px;
+}
+
+.score{
+	text-align: right;
+}
+
+.bold{
+	font-weight: 560;
+}
+
+.out{
+	color: #999696;
+}
+
+.runs{
+	margin-left: -5px;
+}
+
+td{
+	border-bottom: 1px solid #B8B8B8;
+	padding: 10px;
+	font-size: 17px;
+	text-align: left;
+}
+
+td a{
+	text-decoration: none;
+	color: #006eff;
+}
+
+.strikerate{
+	text-align: right;
+	width: 5px;
+}
+
 
 
 /* change the font family and spacing as per your project font */
@@ -7,7 +92,8 @@
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
+	top: 150px;
+	padding-bottom: 50px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
